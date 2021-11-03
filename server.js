@@ -8,7 +8,7 @@ const data = require('./modules/DBconfig');
 var Videos = require('./modules/dbmodule');
 
 var app = express();
-const port = 9000;
+const port = process.env.PORT || 9000;
 
 
 
